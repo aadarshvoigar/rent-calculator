@@ -1,4 +1,5 @@
 # Rent Calculator
+
 A simple command-line Python program that calculates the rent amount per person based on the total rent, number of people, and other expenses.
 
 ## Features 
@@ -10,9 +11,28 @@ A simple command-line Python program that calculates the rent amount per person 
 
 ## Requirements
 
-- Python 3.xx.x
+- Python 3.x
 
 ## How to Run
 
 ```bash
 python3 main.py
+
+### `.gitignore`
+
+```gitignore
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# IDE/editor files
+.vscode/
+.idea/
