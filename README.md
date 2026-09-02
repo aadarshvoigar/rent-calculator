@@ -17,22 +17,3 @@ A simple command-line Python program that calculates the rent amount per person 
 
 ```bash
 python3 main.py
-
-### `.gitignore`
-
-```gitignore
-# Python cache
-__pycache__/
-*.py[cod]
-
-# Virtual environments
-.venv/
-env/
-venv/
-
-# Environment variables
-.env
-
-# IDE/editor files
-.vscode/
-.idea/
